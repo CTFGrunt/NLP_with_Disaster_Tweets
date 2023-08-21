@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/91783eb7307e4e4c80addcc4f55c5cbb/artifacts
+end_time: 1692624773970
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91783eb7307e4e4c80addcc4f55c5cbb
+run_name: intrigued-hare-615
+run_uuid: 91783eb7307e4e4c80addcc4f55c5cbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692624759184
+status: 3
+tags: []
+user_id: Madjiguène

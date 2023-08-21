@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/f484d5b052174ce7ad92d4c7507ea118/artifacts
+end_time: 1692633803380
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f484d5b052174ce7ad92d4c7507ea118
+run_name: languid-conch-466
+run_uuid: f484d5b052174ce7ad92d4c7507ea118
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692633786299
+status: 3
+tags: []
+user_id: Madjiguène

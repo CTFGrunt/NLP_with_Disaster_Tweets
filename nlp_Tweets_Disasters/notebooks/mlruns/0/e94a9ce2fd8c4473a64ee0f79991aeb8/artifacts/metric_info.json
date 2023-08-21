@@ -1,0 +1,3 @@
+{
+  "MultinomialNB_score_X_test": "MultinomialNB.score(X=X_test, y=y_test)"
+}

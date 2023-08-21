@@ -1,0 +1,3 @@
+{
+  "KNeighborsClassifier_score_X_test": "KNeighborsClassifier.score(X=X_test, y=y_test)"
+}

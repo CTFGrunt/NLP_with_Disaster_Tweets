@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/de6c30ab075b4869b3cae8410e9901d4/artifacts
+end_time: 1692626358534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de6c30ab075b4869b3cae8410e9901d4
+run_name: sedate-shad-230
+run_uuid: de6c30ab075b4869b3cae8410e9901d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692626349190
+status: 3
+tags: []
+user_id: Madjiguène

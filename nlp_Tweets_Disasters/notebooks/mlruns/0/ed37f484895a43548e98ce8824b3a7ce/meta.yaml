@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/ed37f484895a43548e98ce8824b3a7ce/artifacts
+end_time: 1692626145765
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed37f484895a43548e98ce8824b3a7ce
+run_name: able-perch-671
+run_uuid: ed37f484895a43548e98ce8824b3a7ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692626124282
+status: 3
+tags: []
+user_id: Madjiguène

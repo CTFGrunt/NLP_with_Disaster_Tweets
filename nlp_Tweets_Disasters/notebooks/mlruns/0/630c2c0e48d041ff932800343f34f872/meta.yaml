@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/630c2c0e48d041ff932800343f34f872/artifacts
+end_time: 1692633880703
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 630c2c0e48d041ff932800343f34f872
+run_name: charming-calf-15
+run_uuid: 630c2c0e48d041ff932800343f34f872
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692633803621
+status: 3
+tags: []
+user_id: Madjiguène

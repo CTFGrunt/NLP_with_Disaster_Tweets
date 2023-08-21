@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/77a01e046ef04fbaa4b4266610b488cc/artifacts
+end_time: 1692625822709
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77a01e046ef04fbaa4b4266610b488cc
+run_name: judicious-ape-20
+run_uuid: 77a01e046ef04fbaa4b4266610b488cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692625812181
+status: 3
+tags: []
+user_id: Madjiguène

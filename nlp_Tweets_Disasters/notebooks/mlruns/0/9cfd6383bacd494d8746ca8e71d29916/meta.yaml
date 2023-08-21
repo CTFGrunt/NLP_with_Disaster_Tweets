@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/9cfd6383bacd494d8746ca8e71d29916/artifacts
+end_time: 1692624311713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9cfd6383bacd494d8746ca8e71d29916
+run_name: useful-tern-431
+run_uuid: 9cfd6383bacd494d8746ca8e71d29916
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692624311521
+status: 4
+tags: []
+user_id: Madjiguène

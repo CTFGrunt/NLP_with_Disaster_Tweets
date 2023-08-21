@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/polytech/Desktop/Cours%20DIC3/MLOPS/final_projet/nlp_Tweets_Disasters/notebooks/mlruns/0/4c919eb5bf3a42b98b2418422cd4ceaa/artifacts
+end_time: 1692626253299
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c919eb5bf3a42b98b2418422cd4ceaa
+run_name: auspicious-sow-312
+run_uuid: 4c919eb5bf3a42b98b2418422cd4ceaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692626253084
+status: 4
+tags: []
+user_id: Madjiguène
