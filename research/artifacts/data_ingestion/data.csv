@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Natural Language Processing with Disaster Tweets | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Predict which Tweets are about real disasters and which ones are not" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="PfbN7gOlqtzO3gljHzE13Q==" type="text/javascript">
+    window["pageRequestStartTime"] = 1692722447346;
+    window["pageRequestEndTime"] = 1692722447444;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="PfbN7gOlqtzO3gljHzE13Q==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=dd064d680b3ca5c8a76b" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=c5ea368bfe8bd6c8f533" />
+  
+    
+ 
+      <script nonce="PfbN7gOlqtzO3gljHzE13Q==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="PfbN7gOlqtzO3gljHzE13Q==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Competitions'
+        });
+    </script>
+    <script nonce="PfbN7gOlqtzO3gljHzE13Q==" async src="https://www.googletagmanager.com/gtag/js?id=G-T7QHS60L4Q"></script>
+
+  
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggle" />
+        <meta name="twitter:creator" content="@kaggle" />
+    <meta name="og:url" content="https://kaggle.com/competitions/nlp-getting-started" />
+    <meta name="og:title" content="Natural Language Processing with Disaster Tweets" />
+    <meta name="og:description" content="Predict which Tweets are about real disasters and which ones are not" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+
+  
+    
+
+  
+    
+
+
+    <script nonce="PfbN7gOlqtzO3gljHzE13Q==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="PfbN7gOlqtzO3gljHzE13Q==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="PfbN7gOlqtzO3gljHzE13Q==" src="/static/assets/runtime.js?v=f76c5bba1348b5ec8a95" data-turbolinks-track="reload"></script>
+  <script nonce="PfbN7gOlqtzO3gljHzE13Q==" src="/static/assets/vendor.js?v=4306927b086ff81d87b2" data-turbolinks-track="reload"></script>
+  <script nonce="PfbN7gOlqtzO3gljHzE13Q==" src="/static/assets/app.js?v=294d4a3c6367a2ee147e" data-turbolinks-track="reload"></script>
+    <script nonce="PfbN7gOlqtzO3gljHzE13Q==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>

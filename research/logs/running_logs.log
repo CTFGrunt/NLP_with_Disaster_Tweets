@@ -1,0 +1,33 @@
+[2023-08-22 16:37:46,697: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 16:38:39,616: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 16:39:37,902: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 16:39:45,467: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 16:39:45,470: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 16:40:45,571: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 16:40:45,575: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 16:40:45,579: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 16:40:45,588: INFO: common: created directory at: artifacts]
+[2023-08-22 16:40:45,590: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 16:40:46,628: INFO: 223211888: artifacts/data_ingestion/data.csv download! with following info: 
+Content-Type: text/html; charset=utf-8
+Date: Tue, 22 Aug 2023 16:40:47 GMT
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Set-Cookie: ka_sessionid=5f599b64ac84e63907c37f5b6f29df7f; max-age=2626560; path=/
+Set-Cookie: CSRF-TOKEN=CfDJ8OUZZhoRU_5EmXzVc6iDdFUZu_sx8H_ohX5TeLYQBSG30gBRFVERGpNYT8ObqWxwhW6mXcscQNgeA90rnpROPDOMJ5wChNv0MeBk02q9iQ; path=/; secure; samesite=lax; httponly
+Set-Cookie: XSRF-TOKEN=CfDJ8OUZZhoRU_5EmXzVc6iDdFUz8OgRoohqOqo8cKKsZ-Ed2dzjg3Uwn3fEEnw-uYXQEqScOlVruPO3t28h7LGXLZTX7x7tgXb-MPiJOfoNO6FNDg; path=/; secure; samesite=lax
+Set-Cookie: CLIENT-TOKEN=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpc3MiOiJrYWdnbGUiLCJhdWQiOiJjbGllbnQiLCJzdWIiOm51bGwsIm5idCI6IjIwMjMtMDgtMjJUMTY6NDA6NDcuNDQzMzk3M1oiLCJpYXQiOiIyMDIzLTA4LTIyVDE2OjQwOjQ3LjQ0MzM5NzNaIiwianRpIjoiNmY4N2I0MjMtMjI2Yi00ZGFhLWI5MzMtYjZkZGRmYzU2MDJmIiwiZXhwIjoiMjAyMy0wOS0yMlQxNjo0MDo0Ny40NDMzOTczWiIsImFub24iOnRydWUsImZmIjpbIktlcm5lbHNGaXJlYmFzZUxvbmdQb2xsaW5nIiwiQ29tbXVuaXR5TG93ZXJIZWFkZXJTaXplcyIsIkFsbG93Rm9ydW1BdHRhY2htZW50cyIsIkZyb250ZW5kRXJyb3JSZXBvcnRpbmciLCJEYXRhc2V0c01hbmFnZWRGb2N1c09uT3BlbiIsIkRvaURhdGFzZXRUb21ic3RvbmVzIiwiQ2hhbmdlRGF0YXNldE93bmVyc2hpcFRvT3JnIiwiTWF1UmVwb3J0IiwiTW9kZWxzQ2FjaGVkVGFnU2VydmljZUVuYWJsZWQiLCJNb2RlbHNTaG93RmlsZUV4cGxvcmVyIiwiQ29tcGV0aXRpb25zUnVsZXNLbSIsIkRhdGFzZXRzU2hhcmVkV2l0aFRoZW1TZWFyY2giLCJEYXRhc2V0c1ZvdGluZ0NoaXBzIiwiTW9kZWxJbnN0YW5jZVJlbmRlcmVkVXNhZ2UiLCJSZWNlbnRseVZpZXdlZE1vZGVsc1NoZWxmIiwiRGF0YXNldHNOZXdEZWxldGVkVmlldyJdLCJmZmQiOnsiS2VybmVsRWRpdG9yQXV0b3NhdmVUaHJvdHRsZU1zIjoiMzAwMDAiLCJGcm9udGVuZEVycm9yUmVwb3J0aW5nU2FtcGxlUmF0ZSI6IjAiLCJFbWVyZ2VuY3lBbGVydEJhbm5lciI6Int9IiwiQ2xpZW50UnBjUmF0ZUxpbWl0IjoiNDAiLCJGZWF0dXJlZENvbW11bml0eUNvbXBldGl0aW9ucyI6IjUyMzAwLDU0ODU5IiwiQWRkRmVhdHVyZUZsYWdzVG9QYWdlTG9hZFRhZyI6ImRpc2FibGVkIiwiQ29tcGV0aXRpb25NZXRyaWNUaW1lb3V0TWludXRlcyI6IjMwIn0sInBpZCI6ImthZ2dsZS0xNjE2MDciLCJzdmMiOiJ3ZWItZmUiLCJzZGFrIjoiQUl6YVN5QTRlTnFVZFJSc2tKc0NaV1Z6LXFMNjU1WGE1SkVNcmVFIiwiYmxkIjoiMmQ2Yjk3YjZlM2M1YjdjYTQ5YjQ4NjRlM2Q4OTJkMGVjNmJjMTg1MiJ9.; path=/; secure; samesite=lax
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Turbolinks-Location: https://www.kaggle.com/c/nlp-getting-started/data?select=train.csv
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Content-Security-Policy: object-src 'none'; script-src 'nonce-PfbN7gOlqtzO3gljHzE13Q==' 'report-sample' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; base-uri 'none'; report-uri https://csp.withgoogle.com/csp/kaggle/20201130; frame-src 'self' https://www.kaggleusercontent.com https://www.youtube.com/embed/ https://polygraph-cool.github.io https://www.google.com/recaptcha/ https://form.jotform.com https://submit.jotform.us https://submit.jotformpro.com https://submit.jotform.com https://www.docdroid.com https://www.docdroid.net https://kaggle-static.storage.googleapis.com https://kkb-production.jupyter-proxy.kaggle.net https://kkb-production.firebaseapp.com https://kaggle-metastore.firebaseapp.com https://apis.google.com https://content-sheets.googleapis.com/ https://accounts.google.com/ https://storage.googleapis.com https://docs.google.com https://drive.google.com https://calendar.google.com/;
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Via: 1.1 google
+Set-Cookie: GCLB=CKD1j6r9xJ2wQA; path=/; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Connection: close
+
+]
