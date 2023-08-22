@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Classification</title>
+</head>
+<body>
+    <h1>Text Classification</h1>
+
+    <form id="prediction-form">
+        <label for="text">Enter Text:</label>
+        <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
+        <button type="button" id="predict-button">Predict</button>
+    </form>
+
+    <div id="result"></div>
+
+    
+</body>
+</html>
+
+<script>
+	document.getElementById("predict-button").addEventListener("click", function() {
+		const text = document.getElementById("text").value;
+
+		// Envoyer la requête POST à l'API Flask
+		fetch('/predict', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({text: text})
+		})
+		.then(response => response.json())
+		.then(data => {
+			const resultDiv = document.getElementById("result");
+			resultDiv.innerHTML = `Prediction: ${data.prediction}`;
+		})
+		.catch(error => {
+			console.error('Error:', error);
+		});
+	});
+</script>
