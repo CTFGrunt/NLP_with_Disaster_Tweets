@@ -1,3 +1,6 @@
 MIN_COMPLETION_RATE: 0.5
 TEST_SIZE: 0.25
 TRAIN_SIZE: 075
+Random_Forest:
+  n_estimators: 500
+  max_depth: 10

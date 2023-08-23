@@ -1,7 +1,7 @@
 pandas 
 mlflow==2.2.2
 notebook
-numpy
+numpy==1.19.3
 scikit-learn
 matplotlib
 python-box==6.0.2
@@ -16,4 +16,6 @@ patool
 missingno
 wordcloud
 seaborn
+nltk
+pycaret
 -e .
