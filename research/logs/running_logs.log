@@ -31,3 +31,119 @@ Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 Connection: close
 
 ]
+[2023-08-22 18:26:46,832: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 18:26:46,838: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 18:26:46,844: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 18:26:46,846: INFO: common: created directory at: artifacts]
+[2023-08-22 18:26:46,849: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 18:26:49,165: INFO: 1475005677: artifacts/data_ingestion/data.csv download! with following info: 
+Connection: close
+Content-Length: 368097
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/octet-stream
+ETag: "be8aa6fa95236bfdd3e4b192e910b320aea7c7a828154a96a68d14e766c5c31d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 38E6:EAED:2CC3FF:2DF2CE:64E4FCFA
+Accept-Ranges: bytes
+Date: Tue, 22 Aug 2023 18:26:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lis1490026-LIS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1692728810.715260,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8356a1583cbc2c9ace5e40a4f920cc71f64376e3
+Expires: Tue, 22 Aug 2023 18:31:49 GMT
+Source-Age: 238
+
+]
+[2023-08-22 19:59:59,568: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 19:59:59,570: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 19:59:59,573: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 19:59:59,575: INFO: common: created directory at: artifacts]
+[2023-08-22 19:59:59,577: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 19:59:59,580: INFO: 1152804731: File already exists of size: ~ 359 KB]
+[2023-08-22 20:01:33,987: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 20:01:33,990: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 20:01:33,992: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 20:01:33,994: INFO: common: created directory at: artifacts]
+[2023-08-22 20:01:33,996: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 20:01:33,998: INFO: 223211888: File already exists of size: ~ 359 KB]
+[2023-08-22 20:02:00,208: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 20:02:00,211: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 20:02:00,213: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 20:02:00,215: INFO: common: created directory at: artifacts]
+[2023-08-22 20:02:00,218: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 20:02:00,221: INFO: 2275896398: File already exists of size: ~ 359 KB]
+[2023-08-22 20:10:34,181: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 20:10:34,184: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 20:10:34,187: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 20:10:34,189: INFO: common: created directory at: artifacts]
+[2023-08-22 20:10:34,191: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 20:10:34,193: INFO: 2275896398: File already exists of size: ~ 359 KB]
+[2023-08-22 20:17:48,634: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 20:17:48,637: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 20:17:48,639: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 20:17:48,641: INFO: common: created directory at: artifacts]
+[2023-08-22 20:17:48,644: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 20:17:48,646: INFO: 3013260348: File already exists of size: ~ 359 KB]
+[2023-08-22 20:21:05,285: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 20:21:05,287: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 20:21:05,289: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 20:21:05,291: INFO: common: created directory at: artifacts]
+[2023-08-22 20:21:05,294: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 20:21:05,296: INFO: 3676543373: File already exists of size: ~ 359 KB]
+[2023-08-22 20:36:19,217: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 20:36:19,221: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 20:36:19,223: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 20:36:19,226: INFO: common: created directory at: artifacts]
+[2023-08-22 20:36:19,229: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 20:36:19,231: INFO: 2489960756: File already exists of size: ~ 359 KB]
+[2023-08-22 21:48:08,678: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-22 21:48:08,681: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-22 21:48:08,683: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-22 21:48:08,685: INFO: common: created directory at: artifacts]
+[2023-08-22 21:48:08,687: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-22 21:48:10,438: INFO: 2489960756: artifacts/data_ingestion/data.rar download! with following info: 
+Connection: close
+Content-Length: 368097
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/octet-stream
+ETag: "be8aa6fa95236bfdd3e4b192e910b320aea7c7a828154a96a68d14e766c5c31d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 413C:13770:4BA9C4:4DC4EC:64E52D15
+Accept-Ranges: bytes
+Date: Tue, 22 Aug 2023 21:48:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lis1490057-LIS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1692740891.240826,VS0,VE377
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 93358032119692a234bafe24175c59eb533b295d
+Expires: Tue, 22 Aug 2023 21:53:11 GMT
+Source-Age: 0
+
+]
+[2023-08-23 00:34:09,581: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-23 00:34:09,583: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-23 00:34:09,638: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-23 00:34:09,641: INFO: common: created directory at: artifacts]
+[2023-08-23 00:34:09,644: INFO: common: created directory at: artifacts/data_validation]
+[2023-08-23 00:36:11,704: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\config\config.yaml loaded successfully]
+[2023-08-23 00:36:11,707: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\params.yaml loaded successfully]
+[2023-08-23 00:36:11,709: INFO: common: yaml file: c:\Users\conta\Desktop\Data Enginering_2023_class\MLOps_project\NLP_with_Disaster_Tweets\schema.yaml loaded successfully]
+[2023-08-23 00:36:11,711: INFO: common: created directory at: artifacts]
+[2023-08-23 00:36:11,714: INFO: common: created directory at: artifacts/data_validation]

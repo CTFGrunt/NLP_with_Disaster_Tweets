@@ -127,3 +127,27 @@ def get_size(path: Path) -> str:
     """
     size_in_kb = round(os.path.getsize(path)/1024)
     return f"~ {size_in_kb} KB"
+
+
+@ensure_annotations
+def nullity_filter(df, filter=None, p=0):
+    """
+    Filters a DataFrame according to its nullity, using some combination of 'top' and 'bottom' numerical and
+    percentage values. Percentages and numerical thresholds can be specified simultaneously: for example,
+    to get a DataFrame with columns of at least 75% completeness .
+
+    :param df: The DataFrame whose columns are being filtered.
+    :param filter: The orientation of the filter being applied to the DataFrame. One of, "top", "bottom",
+    or None (default). The filter will simply return the DataFrame if you leave the filter argument unspecified or
+    as None.
+    :param p: A completeness ratio cut-off. If non-zero the filter will limit the DataFrame to columns with at least p
+    completeness. Input should be in the range [0, 1].
+    :return: The nullity-filtered `DataFrame`.
+    """
+    if filter == 'top':
+        if p:
+            df = df.iloc[:, [c >= p for c in df.count(axis='rows').values / len(df)]]
+    elif filter == 'bottom':
+        if p:
+            df = df.iloc[:, [c <= p for c in df.count(axis='rows').values / len(df)]]
+    return df

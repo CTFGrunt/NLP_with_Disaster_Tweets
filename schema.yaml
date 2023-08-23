@@ -1,1 +1,8 @@
-key: value
+COLUMNS:
+  keyword: str
+  location: str
+  text: str
+  target: int64
+
+TARGET_COLUMN:
+  name: target

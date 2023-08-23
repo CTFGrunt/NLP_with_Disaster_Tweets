@@ -12,4 +12,8 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+patool
+missingno
+wordcloud
+seaborn
 -e .

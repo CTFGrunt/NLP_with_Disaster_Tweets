@@ -1,6 +1,6 @@
 import os
 import urllib.request as request
-import zipfile
+import patoolib
 from NLP_Disaster_Tweets import logger
 from NLP_Disaster_Tweets.entity.config_entity import DataIngestionConfig
 from NLP_Disaster_Tweets.utils.common import get_size
@@ -22,14 +22,13 @@ class DataIngestion:
 
 
 
-        def extract_zip_file(self):
-           """
-            zip_file_path: str,
-            Extracts the zip file into the data directory
-            Function returns None
-            """
-           unzip_path = self.config.unzip_dir
-           os.makedirs(unzip_path, exist_ok=True),
-           with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
-                zip_ref.extractall(unzip_path)
-   
+    def extract_zip_file(self):
+        """
+        zip_file_path: str,
+        Extracts the zip file into the data directory
+        Function returns None
+        """
+        unzip_path = self.config.unzip_dir
+        os.makedirs(unzip_path, exist_ok=True),
+        patoolib.extract_archive(self.config.local_data_file, outdir=unzip_path)
+
