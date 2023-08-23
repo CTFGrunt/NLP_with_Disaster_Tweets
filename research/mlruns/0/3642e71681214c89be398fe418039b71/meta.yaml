@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/conta/Desktop/Data%20Enginering_2023_class/MLOps_project/NLP_with_Disaster_Tweets/research/mlruns/0/3642e71681214c89be398fe418039b71/artifacts
+end_time: 1692782923927
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3642e71681214c89be398fe418039b71
+run_name: selective-rook-741
+run_uuid: 3642e71681214c89be398fe418039b71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692782907019
+status: 3
+tags: []
+user_id: sahaba

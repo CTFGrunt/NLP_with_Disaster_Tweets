@@ -1,6 +1,6 @@
 from NLP_Disaster_Tweets.constants import *
 from NLP_Disaster_Tweets.utils.common import read_yaml, create_directories
-from NLP_Disaster_Tweets.entity.config_entity import DataIngestionConfig, DataTransformationConfig, DataValidationConfig, ModelTrainerConfig
+from NLP_Disaster_Tweets.entity.config_entity import DataIngestionConfig, DataTransformationConfig, DataValidationConfig, ModelEvaluationConfig, ModelTrainerConfig
 
 
 class ConfigurationManager:
@@ -75,3 +75,21 @@ class ConfigurationManager:
         )
 
         return model_trainer_config
+    
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.Random_Forest
+        schema =  self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            model_path = config.model_path,
+            all_params=params,
+            metric_file_name = config.metric_file_name,
+            target_column = schema.name           
+        )
+
+        return model_evaluation_config

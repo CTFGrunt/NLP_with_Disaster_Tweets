@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/conta/Desktop/Data%20Enginering_2023_class/MLOps_project/NLP_with_Disaster_Tweets/research/mlruns/0/36bf5c453abe4cd5a099bae724d079e4/artifacts
+end_time: 1692781650111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36bf5c453abe4cd5a099bae724d079e4
+run_name: stylish-stag-157
+run_uuid: 36bf5c453abe4cd5a099bae724d079e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692781616178
+status: 3
+tags: []
+user_id: sahaba
