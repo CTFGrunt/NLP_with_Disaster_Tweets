@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>NLP Disaster Tweets Prediction</title>
+</head>
+<body>
+    <div class="s01">
+        <form>
+            <fieldset>
+                <legend>NLP Disaster Tweets Prediction</legend>
+            </fieldset>
+            <div class="inner-form">
+                <div class="input-field first-wrap">
+                    <input id="search" type="text" placeholder="Enter the text" />
+                </div>
+                <div class="input-field third-wrap">
+                    <button class="btn-search" id="predict-button" type="button">Predict</button>
+                </div>
+            </div>
+            <div class="inner-form">
+                <div class="input-field third-wrap">
+                    <button class="btn-search" id="result-button" type="button">Result</button>
+                </div>
+                <div class="input-field first-wrap">
+                    <input id="result" type="text" placeholder="Prediction result" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("predict-button").addEventListener("click", function() {
+            const text = document.getElementById("search").value;
+
+            // Send a POST request to your backend (adjust the URL as needed)
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ text: text })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultInput = document.getElementById("result");
+                resultInput.value = `Prediction: ${data.prediction}`;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+        
+        // You can similarly implement the "Result" button's functionality here.
+        // Send another request to fetch the result and display it in the input field.
+    </script>
+</body>
+</html>
