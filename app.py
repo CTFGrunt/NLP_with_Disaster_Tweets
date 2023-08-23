@@ -34,7 +34,7 @@ def index():
             logger.info(f"Finish prediction:{predict}")
 
 
-            return predict
+            return predict.tolist()
 
         except Exception as e:
             print('The Exception message is: ',e)
