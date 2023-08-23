@@ -3,6 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 from NLP_Disaster_Tweets.pipeline.prediction import PredictionPipeline
+from NLP_Disaster_Tweets import logger
 
 
 app = Flask(__name__) # initializing a flask app
@@ -24,10 +25,14 @@ def index():
         try:
             #  reading the inputs given by the user
             text =request.form['text']
-            
+            logger.info(f"Starting prediction: {text}")
+
             
             obj = PredictionPipeline()
+            logger.info("Finish prediction")
             predict = obj.predict(text)
+            logger.info(f"Finish prediction:{predict}")
+
 
             return predict
 

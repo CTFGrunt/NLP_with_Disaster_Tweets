@@ -16,6 +16,7 @@ class DataValidationConfig:
     STATUS_FILE: str
     unzip_data_dir: Path
     all_schema: dict
+    MIN_COMPLETION_RATE:float
 
 
 @dataclass(frozen=True)

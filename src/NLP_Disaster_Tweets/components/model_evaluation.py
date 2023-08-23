@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from urllib.parse import urlparse
@@ -8,6 +9,7 @@ import numpy as np
 import joblib
 
 from NLP_Disaster_Tweets.entity.config_entity import ModelEvaluationConfig
+from NLP_Disaster_Tweets.utils.common import save_json
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
@@ -30,8 +32,7 @@ class ModelEvaluation:
         test_x = test_data.drop([self.config.target_column], axis=1)
         test_y = test_data[[self.config.target_column]]
 
-
-        
+        mlflow.set_tracking_uri("http://localhost:5000")  
 
 
         with mlflow.start_run():
@@ -51,8 +52,7 @@ class ModelEvaluation:
             mlflow.log_metric("mae", mae)
 
 
-            # Model registry does not work with file store
-            mlflow.sklearn.log_model(model, "model", registered_model_name="RandomForestClassifier")
+            
 
 
     

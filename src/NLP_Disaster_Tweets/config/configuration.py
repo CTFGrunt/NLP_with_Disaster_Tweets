@@ -31,6 +31,7 @@ class ConfigurationManager:
     
     def get_data_validation_config(self) -> DataValidationConfig:
         config = self.config.data_validation
+        config.MIN_COMPLETION_RATE=self.params.MIN_COMPLETION_RATE
         schema = self.schema.COLUMNS
 
         create_directories([config.root_dir])
@@ -40,6 +41,7 @@ class ConfigurationManager:
             STATUS_FILE=config.STATUS_FILE,
             unzip_data_dir = config.unzip_data_dir,
             all_schema=schema,
+            MIN_COMPLETION_RATE=config.MIN_COMPLETION_RATE
         )
 
         return data_validation_config
@@ -58,7 +60,7 @@ class ConfigurationManager:
     
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
-        params = self.params.ElasticNet
+        params = self.params.Random_Forest
         schema =  self.schema.TARGET_COLUMN
 
         create_directories([config.root_dir])
@@ -68,8 +70,8 @@ class ConfigurationManager:
             train_data_path = config.train_data_path,
             test_data_path = config.test_data_path,
             model_name = config.model_name,
-            alpha = params.alpha,
-            l1_ratio = params.l1_ratio,
+            n_estimators= params.n_estimators,
+            max_depth= params.max_depth,
             target_column = schema.name
             
         )

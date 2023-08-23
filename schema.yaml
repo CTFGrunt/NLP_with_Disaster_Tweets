@@ -2,7 +2,7 @@ COLUMNS:
   keyword: str
   location: str
   text: str
-  target: int64
+  target: int
 
 TARGET_COLUMN:
   name: target
